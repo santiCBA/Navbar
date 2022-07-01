@@ -4,15 +4,18 @@
 }
 
 body {
-    background-image: url(https://i.postimg.cc/dJTDgy9F/illustration-abstract-space-circle-universe-screenshot-62032-wallhere-com.jpg);
+    background-image: url(img/imagen-fondo.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    background-color: transparent;
     font-family: Arial, Helvetica, sans-serif;
+
 }
 
 header {
-    background: linear-gradient(#0f0443, #393a3a);
+    background: linear-gradient(#0f0443d9, #393a3a);
+    background-color: transparent;
     height: 130px;
     display: flex;
     justify-content: space-between;
@@ -32,6 +35,7 @@ nav {
     align-items: center;
     color: #61d1ed;
     text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 ul {
@@ -51,8 +55,8 @@ li {
 }
   
 main {
-    background-color: #000000;
-    padding: 60px 40px;
+    background-color: #000000c2;
+    padding: 20px 34px;
     line-height: 1.7em;
     display: flex;
     align-items: center;
@@ -66,8 +70,8 @@ main {
 }
 
 .taller {
-    width: 60%;
-    padding: 0 80px 0 20px;
+    margin: 60px 5px;width: 60%;
+    padding: 0 68px 0 40px;
     margin: 60px 5px;
 }
 
@@ -82,6 +86,10 @@ h2 {
     font-size: 30px;
     color: rgb(199, 199, 218);
     font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    margin: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 a:hover {
@@ -91,7 +99,7 @@ a:hover {
 
 div {
     font-size: 20px;
-    color: #61d1ed;
+    color: #347585;
 }
 
 .imagen_taller {
@@ -104,7 +112,8 @@ div {
 .imagen_taller2 {
     overflow: hidden;
     width: 300px;
-    height: 300px;
+    height: auto;
+    border-radius: 0;
 }
 
 .fondo {
