@@ -95,6 +95,7 @@ h2 {
 a:hover {
     color: white;
     cursor: pointer;
+    background-color: #3A6073;
 }
 
 div {
