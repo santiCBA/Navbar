@@ -1,58 +1,105 @@
-<!DOCTYPE html>
-<head>
-    <meta charset="utf-8">
-    <title>LandingPageAcrifib</title>
-    <link rel="stylesheet" type="text/css" href="./styles.css">
-</head>
-<body>
-    <header>
-        <a href="index.html"><img src="https://w7.pngwing.com/pngs/927/243/png-transparent-music-song-arabesque-art-music-miscellaneous-blue-logo.png" alt="logo"></a>
-        <nav>
-            <ul>
-                <li><a href="./inicio.html">INICIO</a></li>
-                <li><a href="./inscripciones.html">INSCRIPCIONES</a></li>
-                <li><a href="./contacto.html">CONTACTO</a></li>
-            </ul>
-        </nav>
+<<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejercicio Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="./img/logo-acrifib3.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+      integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="title">
+        <a href="#"><img src="./img/img-logo.png" alt="Logo de Acrifib" /></a>
+        <h1>Acrifib</h1>
+      </div>
+      <nav class="navbar">
+        <label for="menu"><i class="fas fa-bars"></i></label>
+        <input type="checkbox" id="menu" />
+        <ul class="navbar-list">
+          <li><a class="navbar-link" href="#hero">Inicio</a></li>
+          <li><a class="navbar-link" href="#product">Productos</a></li>
+          <li><a class="navbar-link" href="#about">Nosotros</a></li>
+          <li><a class="navbar-link" href="#work">Contacto</a></li>
+        </ul>
+      </nav>
     </header>
-    <section>
-        <main>
-            <div class="taller">
-                <h2>Taller Musical COMPOSICION</h2>
+    <main>
+      <section id="hero">
+        <div class="hero-presentation">
+          <h2>Acrifib <span>Pinturas y madera</span></h2>
+          <p>
+            Nos dedicamos a crear las mejores visuales en tu hogar con los
+            productos que tenemos para ofrecerte!
+          </p>
+        </div>
+        <img class="hero-img" src="./img/img-hero.png" alt="Pinturas" />
+      </section>
+      <section class="about__section" id="about">
+        <div class="about__content">
+          <img class="title-img" src="./img/img-logo2.png" alt="Logo Acrifib" />
+          <p>
+            Todas nuestras piezas al estar hechas a mano presentan
+            irregularidades que las hace especiales y diferentes. Son piezas
+            únicas, no hay dos iguales.
+          </p>
+          <a class="btn" href="">Quiero mi producto</a>
+        </div>
+        <div class="about__content--img">
+          <img src="./img/Creando1.jpg" alt="Creando Macetas" />
+        </div>
+      </section>
+      <section class="description_section" id="description">
+        <h2>Tenerlos en tu casa <span>nunca fue tan facil!</span></h2>
+        <h3>Seguí los pasos de aquí abajo</h3>
+        <div class="card_container">
+          <div class="card">
+            <img src="./img/card-flecha.png" alt="info 1" class="info-card" />
+            <p>Elegis el producto que mas te guste de la lista</p>
+          </div>
+          <div class="card">
+            <img src="./img/card-caja.png" alt="info 2" class="info-card" />
+            <p>Nuestros asesores empacan tu pedido</p>
+          </div>
+          <div class="card">
+            <img src="./img/card-casa.png" alt="info 3" class="info-card" />
+            <p>Lo recibis en la comodidad tu casa</p>
+          </div>
+        </div>
+      </section>
+      <section class="cartSection">
+        <article>
+          <img class="cartImg" src="./img/Maceta1.jpeg" alt="" />
+          <div class="cartText">
+            <h2>Maceta</h2>
+            <p>""Ojo abierto""</p>
+          </div>
+        </article>
+        <a href="#" class="cartButton">Comprar</a>
+      </section>
+    </main>
+    <footer id="work">
+      <div class="title">
+        <img src="./img/img-logo2.png" alt="" class="title" />
+      </div>
+      <div class="contacto">
+        <h2>Contacto</h2>
+        <a href="tel:156056487">156 056487</a>
+        <p>Victorino Rodriguez 42</p>
+      </div>
 
-                <p> Es un espacio destinado a la asistencia y promoción de la salud que ofrece la música y el sonido como principal medio terapéutico. </P>
-
-                <P> El equipo está conformado por profesionales formados y formadas en Musicoterapia, dedicados/as a pensar y llevar a cabo el accionar terapéutico y musical tanto en niños, adolescentes y adultos, como así también atender a las demandas de diversos grupos sociales de nuestra comunidad. </P>
-                    
-                <P> Buscamos sostener un trabajo clínico alojando diversas formas de práctica musicoterapéutica, fomentando un espacio de investigación y reflexión a través del diálogo, el intercambio, la supervisión y la formación contínua. </p>       
-            </div> 
-            <div>   
-            <img class="imagen_taller" src="img/taller-musical.jpg" alt="imagen-taller"/>
-            </div>
-        </main>
-        <div class="fondo"></div>
-    </section>
-            
-    <section>
-        <main>
-            <div class="taller">
-                <h2>Acompañamiento familiar</h2>
-                
-                <p> Creemos en los espacios de contención y elaboración, donde la música y los sonidos son nuestra principal herramienta para ser en la música, en los sonidos, silencios y ruidos, en el juego...  </P>
-
-                <P> Por ello disponemos de una estrategia de acompañamiento familiar que permite un trabajo integral de los vínculos de nuestros usuarios.</P>
-                    
-            </div> 
-            <div>   
-            <img class="imagen_taller2" src="img/familiar.jpg" alt="imagen_taller2"/>
-            </div>
-        </main>
-    </section> 
-
-    <footer>
-        <section class="pie-footer">
-            <h3> Copyright ® 2022 NUCBA</h3>
-        </section>
+      <div class="legales">
+        <h2>Legales</h2>
+        <p>Generl Paz 412 1 B</p>
+      </div>
     </footer>
-    
-</body>
+  </body>
+</html>
